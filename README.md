@@ -36,7 +36,7 @@ Training outputs are written to experiments/<experiment_name>/. The ranking scri
 
 ## Qwen3-4B model
 
-Download the model from the official Hugging Face repository: [Qwen/Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B).
+Download it into Qwen3-4B under the current project directory,: [Qwen/Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B).
 
 ## Ranking evaluation
 
