@@ -22,11 +22,11 @@ Install a DGL build compatible with your PyTorch and CUDA versions when GPU acce
 
 ## Data
 
-Place each dataset under data/<dataset_name>/ with train.txt, valid.txt, and test.txt. Each line must contain a whitespace-separated triple:
+First, download the dataset from [Google Drive](https://drive.google.com/drive/folders/1MFZntSPYmpAOxYVOAWuZot7KMug4-V5v?usp=drive_link) and extract it to the `data/` directory of this project.
+
+Place each dataset under `data/<dataset_name>/` with `train.txt`, `valid.txt`, and `test.txt`. Each line must contain a whitespace-separated triple:
 
     head_entity relation tail_entity
-
-For LLM path ranking, place entity2text.txt and relation2text.txt in the dataset description directory. Each line uses an identifier and description separated by a tab.
 
 ## Training
 
